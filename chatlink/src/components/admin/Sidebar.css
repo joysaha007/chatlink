@@ -1,0 +1,57 @@
+/* Sidebar default styling (desktop view) */
+.sidebar {
+  height: 100vh;
+  /* Full viewport height */
+  position: fixed;
+  /* Fixed position for desktop */
+  top: 0;
+  left: 0;
+  width: 250px;
+  /* Default width for desktop */
+  background: linear-gradient(to bottom, #239b56 0%, #2980b9 100%);
+  color: #ffffff;
+  /* White text */
+  padding-top: 20px;
+  z-index: 1000;
+  /* Ensures it stays on top */
+}
+
+.logo3{
+  transition: transform 0.3s ease;
+  /* Smooth transition */
+}
+
+.logo3:hover {
+  animation: rotateLogo 2s linear infinite;
+  /* Rotate the logo 360 degrees */
+}
+@keyframes rotateLogo {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.imglogo {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 30px;
+
+}
+
+.a1 {
+  text-decoration: none !important;
+  color: #ffffff !important;
+  padding: 3px !important;
+}
+
+.a1:hover {
+  height: 40px;
+  padding: 3px;
+  border: 2px solid #f4d03f;
+  border-radius: 5px;
+  color: #f4d03f !important;
+}

@@ -1,0 +1,13 @@
+.ad {
+    background: linear-gradient(98.63deg, #239b56 10%, #2980b9 100%);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    padding: 3px;
+    margin: 3px;
+}
+.container-fluid{
+    background: linear-gradient(98.63deg, #239b56 10%, #2980b9 100%);
+    padding: 0px;
+    margin: 0px;
+}

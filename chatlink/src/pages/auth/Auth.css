@@ -1,0 +1,49 @@
+
+.mainBody {
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+    background-image: url('../../img/bg5.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Scale the image to cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Make the background fixed on scroll */
+  
+  
+}
+
+.a-left{
+  background-color: linear-gradient(98.63deg, #239b56 0%, #2980b9 100%);  
+  height: 25rem;
+  width: 30rem;
+}
+
+.bg3 {
+  background: linear-gradient(98.63deg, #239b56 0%, #2980b9 100%);
+}
+/* .bg3{
+  background-color: #ec7063;
+} */
+.a-right{
+  height: 25rem;
+  width: 30rem;
+  border-radius: 10px;
+
+}
+.form3{
+  border-radius: 10px;
+  background-image: url('../../img/bg5.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  /* background-attachment: fixed;  */
+}
+.heading1{
+  
+  /* border: 2px solid white; */
+  padding: 3px 7px;
+  /* background-color: darkblue; */
+  background-image: url('../../img/bg3.jpg');
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+}

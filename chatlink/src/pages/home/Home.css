@@ -1,0 +1,23 @@
+.home {
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+    margin: 0% 1%;
+  }
+  
+  /* Tablet view */
+  @media (max-width: 1024px) {
+    .home {
+      grid-template-columns: 16rem auto;
+    }
+  }
+  
+  /* Mobile view */
+  @media (max-width: 768px) {
+    .home {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+  }
+  

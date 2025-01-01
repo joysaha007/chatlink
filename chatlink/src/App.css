@@ -1,0 +1,78 @@
+:root {
+  --primary-blue: #2980b9; 
+  --primary-green: #239b56;
+  --black: #242d49; 
+  --gray: rgba(36, 45, 73, 0.65); 
+  --profileShadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(255, 255, 255, 0.64); 
+  --buttonBg: linear-gradient(98.63deg, #239b56 0%, #2980b9 100%); 
+  --inputColor: rgba(40, 52, 62, 0.07);
+  --photo: #2d8659; 
+  --video: #2e4f85; 
+  --location: #c0392b;
+  --schedule: #d4a24b; 
+}
+
+.main {
+  overflow: hidden;
+  color: var(--black);
+  background: #f3f3f3;
+  
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  transition: all 100ms ease-out;
+  padding: 0.8rem 1.5rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: var(--primary-green);
+  background: transparent;
+  border: 2px solid var(--primary-blue);
+}
+.button:disabled{
+  background: #d4a24b;
+  pointer-events: none;
+}
+.UnfollowButton{
+  border:2px solid var(--primary-green);
+  color: var(--primary-blue);
+  background: transparent;
+}
+/* Hide scrollbar */
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+/* Tablet view */
+@media (max-width: 1024px) {
+  .main {
+    padding: 0.8rem;
+  }
+
+  .button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .main {
+    padding: 0.5rem;
+  }
+
+  .button {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+}
